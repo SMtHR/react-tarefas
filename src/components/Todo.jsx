@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import Form from "./Form";
 import List from "./List";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 export default function Todo() {
   const [list, setList] = useState([]);
